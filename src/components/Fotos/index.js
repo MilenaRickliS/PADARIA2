@@ -1,8 +1,4 @@
 import './style.css';
-import img1 from './padaria.jpeg'
-import img2 from './footer-pexel.jpg'
-import img3 from './carrosel1.jpg'
-
 
 function Fotos(){
     return(

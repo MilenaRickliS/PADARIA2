@@ -519,4 +519,27 @@ form .input-field:first-child {
         margin: 60px 10px ;
         
     }
+    .cart-table {
+        font-size: 8px;
+    }
+    .cart-product-image {
+        display: none;
+      }
+      .product-identification {
+        font-size: 2px;
+      }
+}
+@media screen and (min-width:280px) and (max-width: 540px) {
+    /* CARRINHO */
+    .cart-table {
+        font-size: 8px;
+    }
+    .product-identification {
+        font-size: 2px;
+      }
+      
+      .cart-product-image {
+        width: 40px;
+        height: 40px;
+      }
 }

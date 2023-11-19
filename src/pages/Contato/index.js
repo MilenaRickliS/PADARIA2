@@ -1,10 +1,14 @@
 import { Link } from 'react-router-dom';
 import './style.css';
 import cesto from './cesto-pão.png'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Formulario from '../../components/Formulario'
+import Portifolio from '../../components/Portifolio';
 
 function Contato(){
     return(
-        <section className="topo-do-site">
+        <div>
+            <section className="topo-do-site">
             <div className="interface">
                 <div className="flex">
                     <div className="txt-topo-site">
@@ -25,7 +29,10 @@ function Contato(){
                     </div>
                 </div>
             </div>
-        </section>       
+        </section>
+        <Formulario/>
+        <Portifolio/>
+        </div>       
     );
 }
 
