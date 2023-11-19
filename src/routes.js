@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from './components/Header'
+import Topodosite from './components/Topodosite'
 
 import Inicio from './pages/Inicio'
 import Cardapio from './pages/Cardapio'
@@ -13,6 +14,7 @@ function RoutesApp(){
     return(
         <BrowserRouter>
             <Header/>
+            <Topodosite/>
             <Routes>
                 <Route path="/" element={<Inicio/>}/>
                 <Route path="/cardapio" element={<Cardapio/>}/>

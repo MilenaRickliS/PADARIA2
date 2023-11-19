@@ -47,7 +47,7 @@ header>.interface {
     justify-content: space-between;
 }
 
-header a {
+header nav.menu-desktop a {
     color: #5c5c5c;
     text-decoration: none;
     display: inline-block;

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import './style.css';
 import cesto from './cesto-pão.png'
 
-function Inicio(){
+function Topodosite(){
     return(
         <section className="topo-do-site">
             <div className="interface">
@@ -30,4 +30,4 @@ function Inicio(){
     );
 }
 
-export default Inicio;
+export default Topodosite;
