@@ -186,12 +186,28 @@ section.topo-do-site .flex {
         max-width: 360px;
         margin: 0 auto;
     }
+    .img-g1 {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .img-g2 {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
     
     section.galeria .flex {
        gap: 60px;
     }
 
     .img-g:hover {
+        transform: scale(1.05);
+    }
+    .img-g1:hover {
+        transform: scale(1.05);
+    }
+    .img-g2:hover {
         transform: scale(1.05);
     }
 

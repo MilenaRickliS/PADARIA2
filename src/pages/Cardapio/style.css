@@ -256,7 +256,17 @@ section.portfolio .flex {
         padding: 80px 8%;
     }
 
-    .img-port {
+    .img-port1 {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .img-port2 {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .img-port3 {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
@@ -272,6 +282,16 @@ section.portfolio .flex {
     }
 
     .img-g {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .img-g1 {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    .img-g2 {
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
