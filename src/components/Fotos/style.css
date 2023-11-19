@@ -1,0 +1,60 @@
+/* ESTILO DA GALERIA */
+section.galeria {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+    background-color: #90908c;
+}
+
+section.galeria .flex {
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-g {
+    width: 360px;
+    height: 360px;
+    background-size: cover;
+    background-position: 50% 0%;
+    transition: 2s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+    background-image: url('./padaria.jpeg');
+}
+
+.img-g:hover {
+    background-position: 50% 100%;
+    transform: scale(1.2);
+}
+.img-g1 {
+    width: 360px;
+    height: 360px;
+    background-size: cover;
+    background-position: 50% 0%;
+    transition: 2s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+    background-image: url('./footer-pexel.jpg');
+}
+
+.img-g1:hover {
+    background-position: 50% 100%;
+    transform: scale(1.2);
+}
+.img-g2 {
+    width: 360px;
+    height: 360px;
+    background-size: cover;
+    background-position: 50% 0%;
+    transition: 2s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+    background-image: url('./carrosel1.jpg');
+}
+
+.img-g2:hover {
+    background-position: 50% 100%;
+    transform: scale(1.2);
+}

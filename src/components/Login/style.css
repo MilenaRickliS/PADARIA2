@@ -2,11 +2,13 @@
     max-width: 1280px;
     margin: 0 auto;
 }
-
-.flex {
-    display: flex;
+.login-box{
     text-align: center;
     justify-content: center;
+    display: flex;
+}
+.flex {
+    display: flex;
 }
 section.formulario {
     padding: 80px 4%;

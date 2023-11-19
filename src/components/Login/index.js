@@ -8,7 +8,7 @@ function Login(){
             <div className="interface">
                 <h2 className="titulo">ENTRE NA CONTA <span>OU INSCREVA-SE</span></h2>
 
-                <div className="flex">
+                <div className="login-box">
                     <main className="container-login">
                         <img src={logo}  className="logo" alt="logo padaria" width="100%"/>
                         <form action="">
