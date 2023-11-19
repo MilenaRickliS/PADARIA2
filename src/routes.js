@@ -5,6 +5,8 @@ import Topodosite from './components/Topodosite'
 import Especialidades from "./components/Especialidades";
 import Portifolio from "./components/Portifolio"
 import Sobre from "./components/Sobre"
+import Formulario from "./components/Formulario"
+import Footer from "./components/Footer"
 
 import Inicio from './pages/Inicio'
 import Cardapio from './pages/Cardapio'
@@ -17,10 +19,6 @@ function RoutesApp(){
     return(
         <BrowserRouter>
             <Header/>
-            <Topodosite/>
-            <Especialidades/>
-            <Sobre/>
-            <Portifolio/>
             <Routes>
                 <Route path="/" element={<Inicio/>}/>
                 <Route path="/cardapio" element={<Cardapio/>}/>
@@ -28,6 +26,7 @@ function RoutesApp(){
                 <Route path="/galeria" element={<Galeria/>}/>
                 <Route path="/contato" element={<Contato/>}/>
             </Routes>
+            <Footer/>
         </BrowserRouter>
     );
 }
