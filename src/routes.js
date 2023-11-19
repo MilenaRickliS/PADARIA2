@@ -2,6 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from './components/Header'
 import Topodosite from './components/Topodosite'
+import Especialidades from "./components/Especialidades";
+import Portifolio from "./components/Portifolio"
+import Sobre from "./components/Sobre"
 
 import Inicio from './pages/Inicio'
 import Cardapio from './pages/Cardapio'
@@ -15,6 +18,9 @@ function RoutesApp(){
         <BrowserRouter>
             <Header/>
             <Topodosite/>
+            <Especialidades/>
+            <Sobre/>
+            <Portifolio/>
             <Routes>
                 <Route path="/" element={<Inicio/>}/>
                 <Route path="/cardapio" element={<Cardapio/>}/>
