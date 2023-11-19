@@ -22,18 +22,18 @@ function Cardapio(){
             </div>
             </section> 
             <Especialidades/>
-            <section class="portfolio">
-            <div class="interface">
-                <h2 class="titulo">NOSSAS <span>PROMOÇÕES</span></h2>
-                <div class="flex">
-                    <div class="img-port1">
-                        <div class="overlay">Desconto de 30%</div>
+            <section className="portfolio">
+            <div className="interface">
+                <h2 className="titulo">NOSSAS <span>PROMOÇÕES</span></h2>
+                <div className="flex">
+                    <div className="img-port1">
+                        <div className="overlay">Desconto de 30%</div>
                     </div>
-                    <div class="img-port2">
-                        <div class="overlay">Compre 1 leve 2</div>
+                    <div className="img-port2">
+                        <div className="overlay">Compre 1 leve 2</div>
                     </div>
-                    <div class="img-port3">
-                        <div class="overlay">Tudo com 50%</div>
+                    <div className="img-port3">
+                        <div className="overlay">Tudo com 50%</div>
                     </div>
                 </div>
             </div>

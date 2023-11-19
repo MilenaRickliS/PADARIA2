@@ -5,14 +5,14 @@ import logo from './logo-padaria.png'
 function Header(){
     return(
         <header>
-            <div class="interface">
-                <div class="logo">
+            <div className="interface">
+                <div className="logo">
                     <Link to = '/'>
                         <img src={logo} alt="Logo da Padaria" width="100%"/>
                     </Link>
                 </div>
 
-                <nav class="menu-desktop">
+                <nav className="menu-desktop">
                     <ul>
                         <li><Link to = '/'>Início</Link></li>
                         <li><Link to = '/cardapio'>Cardápio</Link></li>
@@ -21,19 +21,19 @@ function Header(){
                     </ul>
                 </nav>
 
-                <div class="btn-contato">
+                <div className="btn-contato">
                     <Link to = '/contato'>
                         <button>Contato</button>
                     </Link>
                 </div>
 
-                <div class="btn-abrir-menu" id="btn-menu">
-                    <i class="bi bi-list"></i>
+                <div className="btn-abrir-menu" id="btn-menu">
+                    <i className="bi bi-list"></i>
                 </div>
 
-                <div class="menu-mobile" id="menu-mobile">
-                    <div class="btn-fechar">
-                        <i class="bi bi-x-lg"></i>
+                <div className="menu-mobile" id="menu-mobile">
+                    <div className="btn-fechar">
+                        <i className="bi bi-x-lg"></i>
                     </div>
 
                     <nav>
@@ -47,7 +47,7 @@ function Header(){
                     </nav>
 
                 </div>
-                <div class="overlay-menu" id="overlay-menu"></div>
+                <div className="overlay-menu" id="overlay-menu"></div>
             </div>
         </header>      
     );
