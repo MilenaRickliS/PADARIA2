@@ -1,9 +1,13 @@
 import './style.css';
 import cesto from './cesto-pão.png'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from '../../components/Login';
+import Carrinho from '../../components/Carrinho';
 
 function Pedido(){
     return(
-        <section className="topo-do-site">
+        <div>
+            <section className="topo-do-site">
             <div className="interface">
                 <div className="flex">
                     <div className="txt-topo-site">
@@ -18,7 +22,11 @@ function Pedido(){
                     </div>
                 </div>
             </div>
-        </section>       
+            </section> 
+            <Login/>
+            <Carrinho/>
+        </div>
+      
     );
 }
 

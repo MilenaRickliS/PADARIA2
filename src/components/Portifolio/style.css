@@ -1,3 +1,12 @@
+h2.titulo {
+    color: #000;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #EEE1B3;
+}
 /* ESTILO DO PORTFÓLIO */
 section.portfolio {
     padding: 80px 4%;
