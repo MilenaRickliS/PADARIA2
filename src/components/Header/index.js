@@ -1,8 +1,20 @@
 import { Link } from 'react-router-dom';
 import './style.css';
 import logo from './logo-padaria.png'
+import { useEffect, useRef, useState } from "react";
+
 
 function Header(){
+   
+    const navRef = useRef();
+
+	const showNavbar = () => {
+		navRef.current.classList.toggle(
+			"responsive_nav"
+		);
+	};
+
+
     return(
         <header>
             <div className="interface">
@@ -12,13 +24,17 @@ function Header(){
                     </Link>
                 </div>
 
-                <nav className="menu-desktop">
+                <nav ref={navRef}>
                     <ul>
                         <li><Link to = '/'>Início</Link></li>
                         <li><Link to = '/cardapio'>Cardápio</Link></li>
                         <li><Link to = '/pedido'>Pedido</Link></li>
                         <li><Link to = '/galeria'>Galeria</Link></li>
                     </ul>
+                    <div onClick={showNavbar} className="nav-btn nav-close-btn">
+                        <i className="bi bi-x-lg"></i>
+                    </div>
+
                 </nav>
 
                 <div className="btn-contato">
@@ -27,27 +43,12 @@ function Header(){
                     </Link>
                 </div>
 
-                <div className="btn-abrir-menu" id="btn-menu">
-                    <i className="bi bi-list"></i>
+                <div  onClick={showNavbar} className="nav-btn">
+                        <i className="bi bi-list"></i>
                 </div>
 
-                <div className="menu-mobile" id="menu-mobile">
-                    <div className="btn-fechar">
-                        <i className="bi bi-x-lg"></i>
-                    </div>
-
-                    <nav>
-                        <ul>
-                            <li><Link to = '/'>Início</Link></li>
-                            <li><Link to = '/cardapio'>Cardápio</Link></li>
-                            <li><Link to = '/pedido'>Pedido</Link></li>
-                            <li><Link to = '/galeria'>Galeria</Link></li>
-                            <li><Link to = '/contato'>Contato</Link></li>
-                        </ul>
-                    </nav>
-
-                </div>
-                <div className="overlay-menu" id="overlay-menu"></div>
+                
+                
             </div>
         </header>      
     );

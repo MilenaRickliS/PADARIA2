@@ -1,7 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState } from "react";
 
 import Header from './components/Header'
 import Footer from "./components/Footer"
+import { MenuMobile } from "./components/MenuMobile";
 
 import Inicio from './pages/Inicio'
 import Cardapio from './pages/Cardapio'
@@ -12,7 +14,7 @@ import Contato from './pages/Contato'
 
 function RoutesApp(){
     return(
-        <BrowserRouter>
+        <BrowserRouter>         
             <Header/>
             <Routes>
                 <Route path="/" element={<Inicio/>}/>

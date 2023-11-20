@@ -26,7 +26,7 @@
 }
 
 .topo-do-site .img-topo-site img {
-    position: relative;
+    position : relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 

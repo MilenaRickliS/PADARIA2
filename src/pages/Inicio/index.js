@@ -8,7 +8,6 @@ import Portifolio from '../../components/Portifolio';
 import Formulario from '../../components/Formulario';
 
 
-
 function Inicio(){
     return(
         <div>
