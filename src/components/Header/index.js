@@ -36,12 +36,12 @@ function Header(){
                     </div>
 
                 </nav>
-
                 <div className="btn-contato">
                     <Link to = '/contato'>
                         <button>Contato</button>
                     </Link>
                 </div>
+                
 
                 <div  onClick={showNavbar} className="nav-btn">
                         <i className="bi bi-list"></i>
