@@ -38,30 +38,49 @@ form .btn-enviar input:hover {
 
 /* ESTILO DO CABEÇALHO */
 header {
-    padding: 40px 4%;
+    padding: 40px 8%;
 }
 
-header>.interface {
+.interface-header {
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: space-between;
 }
 
-header a {
+header a{
     color: #5c5c5c;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
+header nav ul li a:visited{
+    color: #000;
+    text-decoration: none;
+}
+
 
 header a:hover {
     color: #000;
     text-decoration: none;
     transform: scale(1.05);
+    
+}
+header a:active{
+    color: #000;
+    text-decoration: none;
 }
 
-header nav ul {
+header nav ul{
+    text-align: center;
     list-style-type: none;
+}
+header nav ul li:visited{
+    text-decoration: none;
+}
+
+header nav ul li:active {
+    text-decoration: none;
 }
 
 header ul li {
@@ -149,14 +168,17 @@ header .nav-btn {
         gap: 3rem;
         
     }
-    header nav ul li :hover{
+    header a:hover{
 		color: #fff;
 	}
     header a {
         color: #000;
     }
+    header a:active{
+        color: #fff;
+    }
     
-    header a:hover {
+    header nav ul li a:hover {
         color: #fff;
 
     }
@@ -209,7 +231,7 @@ header .nav-btn {
         gap: 3rem;
         
     }
-    header nav ul li :hover{
+    header a:hover{
 		color: #fff;
 	}
     header a {
@@ -231,7 +253,7 @@ header .nav-btn {
 		right: 2rem;
 	}
 
-	nav a {
+	nav ul li a {
 		font-size: 1.5rem;
 	}
     

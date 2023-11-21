@@ -17,7 +17,7 @@ function Header(){
 
     return(
         <header>
-            <div className="interface">
+            <div className="interface-header">
                 <div className="logo">
                     <Link to = '/'>
                         <img src={logo} alt="Logo da Padaria" width="100%"/>
@@ -45,9 +45,7 @@ function Header(){
 
                 <div  onClick={showNavbar} className="nav-btn">
                         <i className="bi bi-list"></i>
-                </div>
-
-                
+                </div>                
                 
             </div>
         </header>      

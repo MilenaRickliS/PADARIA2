@@ -11,6 +11,12 @@ function Footer(){
                         <div className="logo-footer">
                             <img src={logo} alt="Logotipo Padaria Vitória" width="100%"/>
                         </div>
+                        <div id='contato-footer' className="btn-contato">
+                            <Link to = '/contato'>
+                                <button>Contato</button>
+                            </Link>
+                        </div>
+                
                         <nav className="menu-footer">
                             <ul>
                                 <li><Link to = '/'>Início</Link></li>

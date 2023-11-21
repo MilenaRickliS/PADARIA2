@@ -67,3 +67,12 @@ footer nav.menu-footer ul li {
     display: inline-block;
     padding: 0 10px;
 }
+#contato-footer{
+    display: none;
+}
+
+    @media only screen and (max-width: 1020px){
+        #contato-footer{
+            display: block;
+        }
+    }
