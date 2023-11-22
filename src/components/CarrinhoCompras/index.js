@@ -87,6 +87,7 @@ const CarrinhoCompras = () =>{
                 <div className="cart-itens-total-price">${totalPrice}</div>
 
             </div>
+            <button className="finalizar">Finalizar Compra</button>
 
         </div>
         </div>
