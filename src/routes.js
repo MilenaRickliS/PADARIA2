@@ -3,7 +3,9 @@ import { useState } from "react";
 
 import Header from './components/Header'
 import Footer from "./components/Footer"
-import { MenuMobile } from "./components/MenuMobile";
+import Produtos from "./components/Produtos";
+import CarrinhoCompras from "./components/CarrinhoCompras";
+
 
 import Inicio from './pages/Inicio'
 import Cardapio from './pages/Cardapio'

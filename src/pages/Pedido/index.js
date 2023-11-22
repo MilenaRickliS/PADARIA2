@@ -2,7 +2,7 @@ import './style.css';
 import cesto from './cesto-pão.png'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from '../../components/Login';
-import Carrinho from '../../components/Carrinho';
+import CarrinhoCompras from '../../components/CarrinhoCompras';
 
 function Pedido(){
     return(
@@ -24,7 +24,8 @@ function Pedido(){
             </div>
             </section> 
             <Login/>
-            <Carrinho/>
+            <CarrinhoCompras/>
+            
         </div>
       
     );
